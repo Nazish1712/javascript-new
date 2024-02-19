@@ -1,0 +1,11 @@
+.gaming-button{
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.is-toggled{
+    background-color: rgb(230, 230, 230);
+    color: black;
+}
