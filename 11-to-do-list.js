@@ -21,7 +21,7 @@ for (let i = 0; i < todoList.length; i++){
      <button onclick="
      todoList.splice(${i}, 1);
      renderTodoList();
-     " class="delete-todo" >Delete</button>
+     " class="delete-todo-button" >Delete</button>
     `;
     
     todoListHTML += html;
@@ -44,7 +44,6 @@ function addTodo(){
         {name, 
         dueDate
     });
-    console.log(todoList);
 
     inputElement.value ='';
 
