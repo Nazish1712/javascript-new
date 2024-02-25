@@ -12,7 +12,7 @@ let todoListHTML = '';     //accumulator pattern so a variable to store html
 
 for (let i = 0; i < todoList.length; i++){        
     const todoObject = todoList[i];    // to get each value(index) from the array todoList
-    //const name = todoObject.name;
+    //const name = todoObject.name; destructuring when variable name and property name is same
     //const dueDate = todoObject.dueDate;
     const {name , dueDate} = todoObject;
     const html = 
@@ -43,7 +43,7 @@ function addTodo(){
     todoList.push(
         {name, 
         dueDate
-    });
+    }); // shortcut in object if property and value  name are same 
 
     inputElement.value ='';
 
