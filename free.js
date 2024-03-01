@@ -1,4 +1,4 @@
-function updateButton(){
+/*function updateButton(){
    const button = document.querySelector('.js-button');
 
    button.innerHTML = 'Loading..';
@@ -26,5 +26,9 @@ setInterval(function(){
    if (message === 0 || message < 0){
       document.title = 'App';
    }
-}, 1000);
+}, 1000);*/
+
+const buttonElement = document.querySelector(
+   '.js-button');
+   buttonElement.addEventListener('click' , () =>{});
 

@@ -10,7 +10,7 @@ renderTodoList();
 function renderTodoList(){
 let todoListHTML = '';     //accumulator pattern so a variable to store html
 
-todoList.forEach(function(todoObject ,index) {
+todoList.forEach((todoObject ,index) => {
     const {name , dueDate} = todoObject;
     const html = 
     `<div>${name}</div>
