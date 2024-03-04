@@ -27,8 +27,11 @@ setInterval(function(){
       document.title = 'App';
    }
 }, 1000);*/
-
+/*
 const buttonElement = document.querySelector(
    '.js-button');
-   buttonElement.addEventListener('click' , () =>{});
+   buttonElement.addEventListener('click' , () =>{});*/
+   [1,-3,5].filter((value, index) => {
+     return true;
+   });
 
